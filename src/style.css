@@ -36,10 +36,6 @@ body {
   border-radius: 20px;
   padding: 8px 0px;
   border: 4px double white;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
 }
 
 .result {
@@ -54,41 +50,37 @@ body {
   border: none;
   border-radius: 50%;
   font-size: 50px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 
 .container_buttons {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 
 .column {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 1%;
 }
 
 
 input[type="button"] {
-  width: 85px;
-  height: 85px;
+  width: 98%;
+  height: 83px;
   border-radius: 50%;
-  margin: 5px 0;
-  padding: 10px;
+  margin: 7% 0;
   font-weight: bold;
   cursor: pointer;
-  margin: 5px 5px;
 }
 
 .num {
   background: var(--background-color-main);
   font-size: 25px;
   color: white;
-  transition: all .3s;
+  transition: background .3s;
 }
 
 .num:hover {
@@ -99,7 +91,7 @@ input[type="button"] {
   background: orange;
   color: white;
   font-size: 32px;
-  transition: all .3s;
+  transition: background .3s;
 }
 
 .operators:hover {
@@ -121,7 +113,7 @@ input[type="button"] {
   background-color: white;
   color: black;
   font-size: 30px;
-  transition:all .3s;
+  transition: background .3s;
 }
 
 .calc:hover {
