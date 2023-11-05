@@ -27,9 +27,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 93%;
+  width: 94%;
   max-width: 450px;
-  height: 520px;
+  height: 560px;
   background: var(--background-color-calculator);
   margin: 0 auto;
   text-align: center;
@@ -74,8 +74,8 @@ body {
 
 
 input[type="button"] {
-  width: 75px;
-  height: 75px;
+  width: 82px;
+  height: 82px;
   border-radius: 50%;
   margin: 5px 0;
   padding: 10px;
