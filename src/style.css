@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+:root {
+  --font-family-text:'Kalam', cursive;
+  --line-height: 1.5;
+  --font-weight: 400;
+  --color-text: rgba(255, 255, 255, 0.87);
+  --background-color-main: #242424;
+  --background-color-calculator : black;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family-text);
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: var(--background-color-main);
+}
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 93%;
+  max-width: 450px;
+  height: 520px;
+  background: var(--background-color-calculator);
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 20px;
+  padding: 8px 0px;
+  border: 4px double white;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.result {
+  width: 93%;
+  margin: 0 auto;
+  margin-top: 5px;
+  color: var(--color-text);
+  background: var(--background-color-calculator);
+  margin-bottom: 10px;
+  padding: 35px 5px 30px 20px;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  font-size: 50px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.container_buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+
+input[type="button"] {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin: 5px 0;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px 5px;
+}
+
+.num {
+  background: var(--background-color-main);
+  font-size: 25px;
+  color: white;
+  transition: all .3s;
+}
+
+.num:hover {
+  background: #1d1d1d;
+}
+
+.operators {
+  background: orange;
+  color: white;
+  font-size: 32px;
+  transition: all .3s;
+}
+
+.operators:hover {
+  background: rgb(223, 145, 0);
+}
+
+.reset {
+  background-color: white;
+  color: black;
+  font-size: 26px;
+  transition:all .3s;
+}
+
+.reset:hover {
+  background: rgb(213, 212, 212);
+}
+
+.calc {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  transition:all .3s;
+}
+
+.calc:hover {
+  background: rgb(213, 212, 212);
+}
+
+
+@media screen and (min-width:500px) and (max-width:850px) {
+  #calculator {
+    height: 550px;
+  }
+
+  input[type="button"] {
+    width: 85px;
+    height: 85px;
+  }
+}
+
+@media screen and (min-width:850px) {
+  #calculator {
+    height: 600px;
+  }
+
+  input[type="button"] {
+    width: 95px;
+    height: 95px;
+  }
+}
