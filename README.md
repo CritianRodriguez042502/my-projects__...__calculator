@@ -21,7 +21,7 @@ Asegúrate de tener Node.js instalado en tu sistema.
 
 ### Pasos de instalación
 
-1. Clonar repositorio : **git clone https://url-de-tu-repositorio.git**
+1. Clonar repositorio : **git clone https://github.com/CritianRodriguez042502/Calculator.git**
 2. Accede al directorio del proyecto : **cd nombre-de-tu-proyecto**
 3. Instala las dependencias : **npm install**
 4. Inicia el servidor de desarrollo : **npm run dev**
