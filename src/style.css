@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 
+
 :root {
   --font-family-text:'Kalam', cursive;
   --line-height: 1.5;
@@ -8,6 +9,7 @@
   --background-color-main: #242424;
   --background-color-calculator : black;
 }
+
 
 body {
   margin: 0;
